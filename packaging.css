@@ -1,0 +1,137 @@
+/* Scoped styles for Packaging & QC Page */
+.packaging-page-wrapper {
+  background-color: #0b111b;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.packaging-page-wrapper .btn-back-link {
+  background: none;
+  border: none;
+  color: #c9d1d9;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.packaging-page-wrapper .btn-back-link:hover {
+  color: #ffffff;
+}
+
+.packaging-page-wrapper .header-icon-box {
+  width: 44px;
+  height: 44px;
+  background: #6a0dad;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(106, 13, 173, 0.4);
+}
+
+.packaging-page-wrapper .subtitle-bright {
+  color: #c9d1d9 !important;
+}
+
+.packaging-page-wrapper .label-bright {
+  color: #c9d1d9 !important;
+  font-weight: 500;
+}
+
+.packaging-page-wrapper .text-purple-light {
+  color: #c9b3f9;
+}
+
+.packaging-page-wrapper .summary-card {
+  background-color: #121821;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+}
+
+.packaging-page-wrapper .chart-card {
+  background-color: #121821;
+  border: 1px solid #30363d;
+}
+
+.packaging-page-wrapper .qc-item-card {
+  background-color: #121821;
+  border: 1px solid #30363d;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.packaging-page-wrapper .qc-item-card:hover {
+  transform: translateY(-5px);
+  border-color: #6a0dad;
+}
+
+/* PILLS & TAGS */
+.packaging-page-wrapper .tag-pill {
+  background: rgba(106, 13, 173, 0.1);
+  color: #c9b3f9;
+  border: 1px solid #3e2060;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* DROPDOWN */
+.packaging-page-wrapper .btn-dark-dropdown {
+  background-color: #0d111b;
+  border: 1px solid #484f58;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 180px;
+  text-align: left;
+}
+
+.packaging-page-wrapper .btn-dark-dropdown:hover, 
+.packaging-page-wrapper .btn-dark-dropdown.active {
+  border-color: #c9b3f9;
+}
+
+.packaging-page-wrapper .custom-dropdown-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 180px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  z-index: 100;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.packaging-page-wrapper .custom-dropdown-menu li {
+  padding: 10px 18px;
+  font-size: 14px;
+  color: #c9d1d9;
+  cursor: pointer;
+}
+
+.packaging-page-wrapper .custom-dropdown-menu li:hover {
+  background-color: #21262d;
+  color: #ffffff;
+}
+
+.packaging-page-wrapper .btn-dark-purple {
+  background-color: #1c1c2b;
+  border: 1px solid #3e2060;
+  color: #c9b3f9;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 14px;
+}
+
+.packaging-page-wrapper .smallest {
+  font-size: 11px;
+}
